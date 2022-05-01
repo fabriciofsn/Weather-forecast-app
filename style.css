@@ -137,4 +137,9 @@ body{
     margin-left: 8px;
 }
 
+@media(max-width: 700px){
+    .touch-id{
+        margin: -15px auto;
+    }
+}
 
