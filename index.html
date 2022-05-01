@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/fb93946c90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather app</title>
+</head>
+<body>
+
+    <div class="phone">
+        <div class="flex">
+            <div class="sensor"></div>
+        </div><!--flex-->
+        <div class="flex-content">
+            <div class="camera"></div>
+            <div class="auricular"></div>
+        </div><!--flex-content-->
+        <div class="screen">
+            <div class="wraper">
+                <div class="city-name">
+                    <span id="city-name">City name</span>
+                </div><!--city-name-->
+                <div class="temp">
+                    <div class="temperatura">
+                        <label id="time" for="temperature">Temp:</label>
+                        <span id="temperature">00º</span>
+                        <p id="sky">Céu limpo</p>
+                    </div>
+                    <div>
+                        <label for="max">Max:</label>
+                        <span id="max">00º</span>
+                        <label for="min">Min:</label>
+                        <span id="min">00º</span>
+                        <label for="sen">sen:</label>
+                        <span id="sen">00</span>
+                    </div>
+                </div><!--temp-->
+                <form action="">
+                    <input type="text" placeholder="Nome da cidade" required>
+                    <button id="btnSearch">Pesquisar</button>
+                </form>
+            </div><!--wraper-->
+        </div><!--screen-->
+        <div class="touch-id"></div>
+    </div><!--phone-->
+
+
+<script src="app.js"></script>    
+</body>
+</html>
